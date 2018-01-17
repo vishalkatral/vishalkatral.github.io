@@ -65,9 +65,37 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(1)
+
+
+jQuery(document).ready(function(){
+jQuery('.skillbar').each(function(){
+  jQuery(this).find('.skillbar-bar').animate({
+    width:jQuery(this).attr('data-percent')
+  },3000);
+});
+
+$('.skill-bar-percent').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+});
+
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\katral\\Desktop\\Workspace\\portfolio\\src\\js\\app.js'");
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
