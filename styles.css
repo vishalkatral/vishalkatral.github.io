@@ -128,14 +128,14 @@ table {
   background-color: #474455; }
 
 .theme-brown .home-content .intro-text h1 {
-  color: #979797; }
+  color: #fff; }
 
 .theme-brown .home-content .intro-text h1 span {
-  color: #979797;
+  color: #fff;
   font-family: "Open Sans", sans-serif; }
 
 .theme-brown .about-content {
-  background-color: #979797;
+  background-color: #fff;
   color: #474455; }
 
 .theme-brown .triangle-up2 {
@@ -152,19 +152,19 @@ table {
   background-color: #33313d; }
 
 .theme-brown .skillbar-title {
-  color: #979797; }
+  color: #fff; }
 
 .theme-brown .skillbar-bar {
   background-color: #f6f73f; }
 
 .theme-brown .skill-bar-percent {
-  color: #979797; }
+  color: #fff; }
 
 .theme-brown .flex-container-1 div h2 {
-  color: #979797; }
+  color: #fff; }
 
 .theme-brown .flex-container-1 div p {
-  color: #979797; }
+  color: #fff; }
 
 .theme-brown .experience-content {
   background-color: #33313d; }
@@ -173,7 +173,7 @@ table {
   color: #f6f73f; }
 
 .theme-brown .experience-content h2 {
-  color: #979797; }
+  color: #fff; }
 
 .theme-brown .experience-content h3 {
   color: #f6f73f; }
@@ -182,7 +182,7 @@ table {
   background-color: #f6f73f; }
 
 .theme-brown .experience-content li {
-  color: #979797; }
+  color: #fff; }
 
 .theme-brown .education-content {
   background-color: #fcfca8; }
@@ -197,10 +197,10 @@ table {
   background-color: #474455; }
 
 .theme-brown footer h3 {
-  color: #979797; }
+  color: #fff; }
 
 .theme-brown footer a {
-  color: #979797; }
+  color: #fff; }
 
 .theme-red .home-content {
   background-color: #540032; }
@@ -391,7 +391,7 @@ p {
   padding: 0px; }
 
 .home-content .switchbtn {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   color: #000;
@@ -430,10 +430,10 @@ p {
   transition: .4s; }
 
 input:checked + .slider {
-  background-color: #c9283e; }
+  background-color: #000; }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #c9283e; }
+  box-shadow: 0 0 1px #000; }
 
 input:checked + .slider:before {
   -webkit-transform: translateX(30px);
@@ -489,7 +489,7 @@ input:checked + .slider:before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.3; }
+  opacity: 0.2; }
 
 .about-content {
   padding: 80px 0px;
